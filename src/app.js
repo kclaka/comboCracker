@@ -9,7 +9,7 @@ button.addEventListener("click", function () {
         button.innerHTML = "Check Combo";
         maker();
     }else{
-        const numbers = document.querySelectorAll(".numb")
+        const numbers = document.querySelectorAll(".numb");
         for(let i = 0; i < numbers.length; i++) {
             console.log(numbers[i].value);
             console.log(numbers[i].correct)
