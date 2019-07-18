@@ -12,7 +12,7 @@ button.addEventListener("click", function () {
         const numbers = document.querySelectorAll(".numb");
         for(let i = 0; i < numbers.length; i++) {
             console.log(numbers[i].value);
-            console.log(numbers[i].correct)
+            console.log(numbers[i].correct);
             if (parseInt(numbers[i].value) === numbers[i].correct) {
                 console.log("Yzayy")
             } else {
