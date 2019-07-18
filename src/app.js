@@ -14,14 +14,13 @@ button.addEventListener("click", function () {
             console.log(numbers[i].value);
             console.log(numbers[i].correct);
             if (parseInt(numbers[i].value) === numbers[i].correct) {
-                console.log("Yzayy")
+                console.log("Yzayy");
             } else {
                 console.log("No Match");
             }
         }
 
     }
-
 
 });
 
@@ -36,7 +35,7 @@ const maker = function () {
         el.style.width = "60px";
         el.order = 0;
         el.correct = Math.floor(Math.random()*10);
-        console.log(el.correct)
+        console.log(el.correct);
         el.value = 0;
         console.log(el);
         gameArea.appendChild(el);
